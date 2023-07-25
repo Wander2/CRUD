@@ -3,7 +3,7 @@ let mytodo_list = ["Do Exercise", "solve Bug", "Meet Team"];
 function CreateTask() {
   let task = document.getElementById("add-task").value;
   if(task == "") {
-    alert("Por Favor Ingrese Una Tarea");
+    alert("Por Favor Ingrese Una Tarea...");
   }else {
         mytodo_list.push(task);
         document.getElementById("add-task").value = "";
